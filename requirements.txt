@@ -1,0 +1,14 @@
+flask
+requests
+python-dotenv
+pandas
+botbuilder
+flask-cors
+aiohttp
+botbuilder-core
+botbuilder-ai
+botframework-connector
+botbuilder-schema
+botbuilder-dialogs
+botbuilder-integration-aiohttp
+databricks-sdk
