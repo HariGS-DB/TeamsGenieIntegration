@@ -2,7 +2,7 @@
   "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
   "manifestVersion": "1.19",
   "version": "1.0.0",
-  "id": "045b3e22-a542-49e2-b189-809f6230e963",
+  "id": "${bot_id}",
   "developer": {
     "name": "teams genie Corp",
     "websiteUrl": "https://example.azurewebsites.net",
@@ -24,7 +24,7 @@
   "accentColor": "#abcdef",
   "bots": [
     {
-      "botId": "a322a3cc-1be5-4ba2-8f2d-875cc7c0708a",
+      "botId": "${bot_id}",
       "scopes": [
         "personal"
       ],
@@ -40,7 +40,7 @@
     "*.*"
   ],
   "webApplicationInfo": {
-    "id": "a322a3cc-1be5-4ba2-8f2d-875cc7c0708a",
-    "resource": "api://botid-a322a3cc-1be5-4ba2-8f2d-875cc7c0708a"
+    "id": "${bot_id}",
+    "resource": "${api_id}"
   }
 }
